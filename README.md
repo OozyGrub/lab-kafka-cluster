@@ -1,2 +1,17 @@
-# lab-kafka-cluster
-Local Kafka Cluster
+# Lab Kafka Cluster
+
+Setting up local kafka cluster
+
+# Consumer Config
+
+```
+SECURE_IMF_KAFKA_BOOTSTRAP_SERVERS=localhost:29092,localhost:29093,localhost:29094
+SECURE_IMF_KAFKA_SASL_ENABLED=false
+SECURE_IMF_KAFKA_SASL_MECHANISMS=PLAIN
+SECURE_IMF_KAFKA_TLS_ENABLED=false
+SECURE_IMF_SARAMA_DEBUG=true
+SECURE_IMF_KAFKA_INSECURE_SKIP_VERIFY=true
+SECURE_IMF_KAFKA_CLIENT_ID=client-id
+SECURE_IMF_CONSUMER_GROUP_NAME=consumer-group
+SECURE_IMF_TOPIC=topic
+```
